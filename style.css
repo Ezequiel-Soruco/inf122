@@ -1,10 +1,26 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #c7cad0;
 }
 h1{
-     color: rgb(255, 0, 0);
-     font-size: 25px;
+    color: #bc6dc9;
+    text-align: center;
+   
 
+}
+h2{
+    color: #bc6dc9;
+
+}
+.registrar{
+    border-radius: 15px;
+    color: red;
+    background-color: #DFF6FF;
+
+}
+.secion{
+    border-radius: 15px;
+    color: red;
+    background-color: #DFF6FF;
 
 }
 p{
@@ -39,8 +55,20 @@ ol li{
 }
 .etiqueta{
     font-size: 15px;
-    background-color: rgb(0, 0,255 );
+    background-color: #f175d8;
+    border-radius: 10px;
 
+}
+.botones{
+    border-radius: 15px;
+    color: red;
+    background-color: #DFF6FF;
+
+
+}
+input{
+    background-color: #ea0e6a;
+    border-radius: 30px;
 }
 
 

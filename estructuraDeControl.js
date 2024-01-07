@@ -11,7 +11,14 @@ else{
     console.log();
 
 }
-//for 
+for(let i=0;i<=10;i++){
+    console.log(i);
+
+}
+for(let i=10;i>=0;i--){
+    console.log(i);
+}
+
 
 
 let contador=10;
@@ -31,7 +38,7 @@ let division=5 / 5;
 console.log(division);
 let mayor= 10>5;
 console.log(mayor);
-//obejtos
+//POO 
 const persona={
     nombre:"Carlos",
     edad:25,
@@ -56,7 +63,7 @@ persona.nombre="Ezequiel";
 persona.apellido="Soruco";
 persona.edad=20;
 console.log(persona);
-//imprimiendo los arrays para ver su contenido
+//imprimiendo los arrays para ver su nro de elementos
 console.log(colores.length);
 //accediendo
 console.log(colores[0]);
@@ -76,7 +83,7 @@ colores.push("violeta");
 console.log(colores);
 //invierte el array
 colores.reverse();
-// ordenas en orden albafetico el array
+// ordenar en orden albafetico el array
 colores.sort();
 colores.push("AZUL");
 colores.push("NEGRO");

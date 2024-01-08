@@ -100,5 +100,28 @@ var elemento =colores.pop();
 console.log(elemento);
 console.log(colores);
 colores.find("azul");
-
-
+// funciones 
+colores.find(function (elemento){
+    return elemento === "rojo";
+});
+var encontrado= colores.findIndex(function(elemento){
+    return elemento===  1;
+});
+console.log(encontrado);
+colores.find(function(elemento){
+    elemento === true
+});
+colores.findIndex(function (elemento){
+    return elemento === true;
+});
+function saludar(nombre){
+    return "Hola"+ nombre+"!";
+}
+const mensaje=saludar("Ezequiel");
+function restaNumeros(num1, num2) {
+    return num1 - num2;
+  }
+  
+  // Ejemplo de uso:
+  var resultado = restaNumeros(10, 5);
+  console.log(resultado);  // Esto imprimirá 5 en la consola
